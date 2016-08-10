@@ -499,6 +499,8 @@
 				TargetAttributes = {
 					4551A2C11BDACF9000F216D0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = W54KRB76UH;
+						DevelopmentTeamName = "Binnj, Inc";
 					};
 					EAD1442019E073FB0065A1FF = {
 						CreatedOnToolsVersion = 6.0.1;
