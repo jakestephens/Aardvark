@@ -33,8 +33,11 @@ NSString *const ARKScreenshotFlashAnimationKey = @"ScreenshotFlashAnimation";
 @interface ARKInvisibleView : UIView
 @end
 
-
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_10_0
 @interface ARKEmailBugReporter () <MFMailComposeViewControllerDelegate, UIAlertViewDelegate, CAAnimationDelegate>
+#else
+@interface ARKEmailBugReporter () <MFMailComposeViewControllerDelegate, UIAlertViewDelegate>
+#endif
 
 @property (nonatomic) UIView *screenFlashView;
 
